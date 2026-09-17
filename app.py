@@ -5,7 +5,7 @@ import os
 # Load model
 model_path = os.path.join(
     os.path.dirname(__file__),
-    "student_result_prediction_model.pkl"
+    "student_result_prediction_model1.pkl"
 )
 
 model = joblib.load(model_path)
